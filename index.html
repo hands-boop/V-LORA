@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VÉLORA | Koleksi Fashion Mewah & Elegan Modern</title>
+  <meta name="description" content="Temukan busana dan aksesori berkualitas premium dari VÉLORA. Dirancang untuk kenyamanan, estetika mewah, dan gaya hidup modern.">
+  
+  <!-- Google Fonts: Cormorant Garamond (Editorial Luxury) & Plus Jakarta Sans (Modern Clean Body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <header class="top-bar">
+    <div class="container top-bar-content">
+      <div class="top-bar-left">
+        <span><i class="fa-solid fa-truck-fast"></i> Gratis ongkir pesanan di atas Rp 750.000</span>
+        <span class="divider">|</span>
+        <span><i class="fa-solid fa-arrow-rotate-left"></i> Pengembalian mudah 30 hari</span>
+      </div>
+      <div class="top-bar-right">
+        <a href="#support" class="top-link">Bantuan & Layanan</a>
+        <a href="#track" class="top-link">Lacak Pesanan</a>
+        <div class="currency-lang">
+          <span>IDR</span>
+          <span class="divider">|</span>
+          <span>ID <i class="fa-solid fa-angle-down"></i></span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Navbar -->
+  <nav class="navbar" id="navbar">
+    <div class="container navbar-content">
+      <!-- Brand Logo -->
+      <a href="#" class="brand-logo">
+        <span class="brand-name">VÉLORA</span>
+        <span class="brand-dot"></span>
+      </a>
+
+      <!-- Navigation Links -->
+      <ul class="nav-menu" id="navMenu">
+        <li class="nav-item"><a href="#hero" class="nav-link active">Beranda</a></li>
+        <li class="nav-item"><a href="#trending" class="nav-link">Belanja</a></li>
+        <li class="nav-item"><a href="#categories" class="nav-link">Kategori</a></li>
+        <li class="nav-item"><a href="#deals" class="nav-link">Promo</a></li>
+        <li class="nav-item"><a href="#new-arrivals" class="nav-link">Koleksi Baru</a></li>
+        <li class="nav-item dropdown">
+          <a href="#pages" class="nav-link">Halaman <i class="fa-solid fa-angle-down"></i></a>
+          <ul class="dropdown-menu">
+            <li><a href="#about">Tentang Kami</a></li>
+            <li><a href="#lookbook">Lookbook 2026</a></li>
+            <li><a href="#contact">Hubungi Kami</a></li>
+          </ul>
+        </li>
+      </ul>
+
+      <!-- Action Icons -->
+      <div class="nav-actions">
+        <button class="icon-btn" id="searchBtn" aria-label="Cari produk" title="Pencarian">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+        <button class="icon-btn" id="userBtn" aria-label="Akun pengguna" title="Akun Saya">
+          <i class="fa-regular fa-user"></i>
+        </button>
+        <button class="icon-btn" id="wishlistBtn" aria-label="Daftar keinginan" title="Disimpan">
+          <i class="fa-regular fa-heart"></i>
+          <span class="badge" id="wishlistCount">0</span>
+        </button>
+        <button class="icon-btn" id="cartBtn" aria-label="Keranjang belanja" title="Keranjang">
+          <i class="fa-solid fa-bag-shopping"></i>
+          <span class="badge" id="cartCount">0</span>
+        </button>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Buka Menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="hero">
+      <div class="container">
+        <div class="hero-card">
+          <!-- Left Text Content -->
+          <div class="hero-text-content">
+            <div class="hero-badge">
+              <span class="badge-dot"></span>
+              KOLEKSI TERBARU 2026
+            </div>
+            <h1 class="hero-title">
+              Sempurnakan Gaya <br>
+              <span class="title-serif">Keseharian Anda</span>
+            </h1>
+            <p class="hero-description">
+              Temukan produk kualitas haute couture yang dirancang khusus untuk kenyamanan maksimal, pesona anggun, dan sentuhan modern berkelas.
+            </p>
+
+            <div class="hero-cta-group">
+              <a href="#trending" class="btn btn-primary">
+                Belanja Sekarang
+                <i class="fa-solid fa-arrow-right-long"></i>
+              </a>
+              <a href="#deals" class="btn btn-outline">
+                Lihat Koleksi
+              </a>
+            </div>
+
+            <!-- Floating Value Props Bar inside hero bottom left -->
+            <div class="hero-features-floating">
+              <div class="feature-item">
+                <div class="feature-icon"><i class="fa-solid fa-box-archive"></i></div>
+                <div class="feature-text">
+                  <strong>Bebas Ongkir</strong>
+                  <span>Pesanan di atas Rp 750rb</span>
+                </div>
+              </div>
+              <div class="feature-divider"></div>
+              <div class="feature-item">
+                <div class="feature-icon"><i class="fa-solid fa-rotate"></i></div>
+                <div class="feature-text">
+                  <strong>Garansi Retur</strong>
+                  <span>30 hari ganti baru</span>
+                </div>
+              </div>
+              <div class="feature-divider"></div>
+              <div class="feature-item">
+                <div class="feature-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                <div class="feature-text">
+                  <strong>Proteksi Aman</strong>
+                  <span>100% enkripsi transaksi</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Hero Image with Editorial Atmosphere -->
+          <div class="hero-visual">
+            <div class="visual-glow"></div>
+            <div class="image-wrapper">
+              <img src="images/hero-models.jpg" 
+                   alt="Koleksi Mode Elegan Pria dan Wanita VÉLORA" 
+                   class="hero-img">
+              <!-- Floating luxury aesthetic tag -->
+              <div class="hero-floating-tag">
+                <i class="fa-solid fa-gem"></i>
+                <div>
+                  <small>Edisi Eksklusif</small>
+                  <strong>Atelier Edition</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CIRCULAR CATEGORIES SECTION -->
+    <section class="categories-section" id="categories">
+      <div class="container">
+        <div class="categories-grid">
+          <!-- Category 1: Pria -->
+          <a href="#trending" class="category-card" data-category="pria">
+            <div class="category-avatar-wrapper">
+              <img src="https://images.unsplash.com/photo-1617137984095-74e4e5e3613f?auto=format&fit=crop&w=400&q=80" 
+                   alt="Busana Pria" class="category-img">
+              <div class="category-ring"></div>
+            </div>
+            <h3 class="category-title">Pria</h3>
+            <span class="category-count">140+ Produk</span>
+          </a>
+
+          <!-- Category 2: Wanita -->
+          <a href="#trending" class="category-card" data-category="wanita">
+            <div class="category-avatar-wrapper">
+              <img src="images/gaun-silk-satin.jpg" 
+                   alt="Busana Wanita" class="category-img">
+              <div class="category-ring"></div>
+            </div>
+            <h3 class="category-title">Wanita</h3>
+            <span class="category-count">190+ Produk</span>
+          </a>
+
+          <!-- Category 3: Sepatu -->
+          <a href="#trending" class="category-card" data-category="sepatu">
+            <div class="category-avatar-wrapper">
+              <img src="https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=400&q=80" 
+                   alt="Koleksi Sepatu" class="category-img">
+              <div class="category-ring"></div>
+            </div>
+            <h3 class="category-title">Sepatu</h3>
+            <span class="category-count">220+ Produk</span>
+          </a>
+
+          <!-- Category 4: Tas -->
+          <a href="#trending" class="category-card" data-category="tas">
+            <div class="category-avatar-wrapper">
+              <img src="images/tas-camel-mewah.jpg" 
+                   alt="Tas & Dompet Mewah" class="category-img">
+              <div class="category-ring"></div>
+            </div>
+            <h3 class="category-title">Tas Mewah</h3>
+            <span class="category-count">95+ Produk</span>
+          </a>
+
+          <!-- Category 5: Jam Tangan -->
+          <a href="#trending" class="category-card" data-category="jam">
+            <div class="category-avatar-wrapper">
+              <img src="https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&w=400&q=80" 
+                   alt="Jam Tangan Presisi" class="category-img">
+              <div class="category-ring"></div>
+            </div>
+            <h3 class="category-title">Jam Tangan</h3>
+            <span class="category-count">75+ Produk</span>
+          </a>
+
+          <!-- Category 6: Aksesori -->
+          <a href="#trending" class="category-card" data-category="aksesori">
+            <div class="category-avatar-wrapper">
+              <img src="https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=400&q=80" 
+                   alt="Koleksi Aksesori" class="category-img">
+              <div class="category-ring"></div>
+            </div>
+            <h3 class="category-title">Aksesori</h3>
+            <span class="category-count">110+ Produk</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROMOTIONAL 2-CARD GRID -->
+    <section class="promo-grid-section" id="deals">
+      <div class="container">
+        <div class="promo-grid">
+          <!-- Promo Card 1: Summer / Season Sale -->
+          <div class="promo-card promo-card-beige">
+            <div class="promo-content">
+              <span class="promo-badge">PROMO SPESIAL</span>
+              <h2 class="promo-heading">
+                Diskon Hingga <br><strong>50% OFF</strong>
+              </h2>
+              <p class="promo-sub">Pilihan eksklusif tas kulit artisan & aksesori esensial</p>
+              <a href="#trending" class="btn btn-dark-pill">
+                Belanja Sekarang
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+            <div class="promo-img-box">
+              <img src="images/tas-artisan-tan.jpg" 
+                   alt="Tas Jinjing Mewah" class="promo-img">
+            </div>
+          </div>
+
+          <!-- Promo Card 2: New Arrivals -->
+          <div class="promo-card promo-card-sand" id="new-arrivals">
+            <div class="promo-content">
+              <span class="promo-badge">KOLEKSI BARU</span>
+              <h2 class="promo-heading">
+                Temukan Tren <br><strong>Terkini 2026</strong>
+              </h2>
+              <p class="promo-sub">Eksplorasi sentuhan estetika modern yang tak lekang waktu</p>
+              <a href="#trending" class="btn btn-dark-pill">
+                Jelajahi Sekarang
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+            <div class="promo-img-box">
+              <img src="https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=800&q=85" 
+                   alt="Kacamata Desainer Elegan" class="promo-img">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRENDING PRODUCTS SECTION -->
+    <section class="trending-section" id="trending">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">Produk Tren Terkini</h2>
+            <p class="section-subtitle">Koleksi terlaris yang paling banyak dicari minggu ini</p>
+          </div>
+          <div class="header-right">
+            <!-- Filter Pills -->
+            <div class="filter-pills" id="filterContainer">
+              <button class="filter-pill active" data-filter="all">Semua</button>
+              <button class="filter-pill" data-filter="wanita">Wanita</button>
+              <button class="filter-pill" data-filter="pria">Pria</button>
+              <button class="filter-pill" data-filter="tas">Tas</button>
+              <button class="filter-pill" data-filter="aksesori">Aksesori</button>
+            </div>
+            <a href="#trending" class="view-all-link">
+              Lihat Semua <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Products Grid Container -->
+        <div class="products-grid" id="productsGrid">
+          <!-- Products will be injected via JS dynamically with high fidelity data -->
+        </div>
+      </div>
+    </section>
+
+    <!-- PERKS HIGHLIGHT BANNER -->
+    <section class="perks-strip">
+      <div class="container">
+        <div class="perks-wrapper">
+          <div class="perk-box">
+            <div class="perk-icon-circle"><i class="fa-solid fa-crown"></i></div>
+            <div class="perk-info">
+              <h4>Kualitas Haute Couture</h4>
+              <p>Dibuat dari bahan terkurasi dengan standar presisi tinggi</p>
+            </div>
+          </div>
+          <div class="perk-box">
+            <div class="perk-icon-circle"><i class="fa-solid fa-arrows-rotate"></i></div>
+            <div class="perk-info">
+              <h4>Garansi Kepuasan</h4>
+              <p>Layanan penukaran mudah dalam kurun waktu 30 hari</p>
+            </div>
+          </div>
+          <div class="perk-box">
+            <div class="perk-icon-circle"><i class="fa-solid fa-headset"></i></div>
+            <div class="perk-info">
+              <h4>Layanan Concierge 24/7</h4>
+              <p>Konsultasi gaya busana personal dengan fashion advisor</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- NEWSLETTER SUBSCRIPTION -->
+    <section class="newsletter-section">
+      <div class="container">
+        <div class="newsletter-card">
+          <div class="newsletter-content">
+            <span class="sub-label">VÉLORA PRIVILEGE CLUB</span>
+            <h2>Dapatkan Diskon 15% Untuk Pembelian Pertama</h2>
+            <p>Jadilah yang pertama mengetahui peluncuran koleksi eksklusif, edisi terbatas, dan undangan trunk show privat.</p>
+            <form class="newsletter-form" id="newsletterForm">
+              <input type="email" placeholder="Masukkan alamat email Anda..." required class="email-input">
+              <button type="submit" class="btn btn-gold">Daftar Sekarang</button>
+            </form>
+            <small class="privacy-note"><i class="fa-solid fa-lock"></i> Privasi Anda terjaga. Kami tidak akan mengirimkan spam.</small>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- LUXURY FOOTER -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-col brand-col">
+        <a href="#" class="brand-logo footer-logo">
+          <span class="brand-name">VÉLORA</span>
+          <span class="brand-dot"></span>
+        </a>
+        <p class="brand-desc">
+          Mendefinisikan ulang kemewahan busana modern dengan keanggunan abadi, estetika bersih, dan siluet kontemporer untuk pria & wanita.
+        </p>
+        <div class="social-links">
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+          <a href="#" aria-label="Pinterest"><i class="fa-brands fa-pinterest-p"></i></a>
+          <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">Navigasi Belanja</h4>
+        <ul class="footer-links">
+          <li><a href="#categories">Koleksi Busana Pria</a></li>
+          <li><a href="#categories">Koleksi Busana Wanita</a></li>
+          <li><a href="#trending">Sepatu Artisan</a></li>
+          <li><a href="#deals">Tas & Aksesori Kulit</a></li>
+          <li><a href="#deals">Penawaran Musim Ini</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">Bantuan Pelanggan</h4>
+        <ul class="footer-links">
+          <li><a href="#support">Panduan Ukuran (Size Guide)</a></li>
+          <li><a href="#track">Pelacakan Pesanan</a></li>
+          <li><a href="#returns">Kebijakan Pengembalian</a></li>
+          <li><a href="#faq">Pertanyaan Umum (FAQ)</a></li>
+          <li><a href="#contact">Hubungi Konsultan Kami</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">Butik & Kontak</h4>
+        <ul class="footer-contact">
+          <li><i class="fa-solid fa-location-dot"></i> Pacific Place Mall, Level 1, SCBD, Jakarta</li>
+          <li><i class="fa-solid fa-phone"></i> +62 21 555-8900</li>
+          <li><i class="fa-solid fa-envelope"></i> concierge@velorastudio.id</li>
+          <li><i class="fa-regular fa-clock"></i> Setiap Hari: 10.00 - 22.00 WIB</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Bottom Copyright -->
+    <div class="footer-bottom">
+      <div class="container footer-bottom-content">
+        <p>© 2026 VÉLORA Studio. Seluruh hak cipta dilindungi undang-undang.</p>
+        <div class="payment-methods">
+          <span>Metode Pembayaran:</span>
+          <i class="fa-brands fa-cc-visa" title="Visa"></i>
+          <i class="fa-brands fa-cc-mastercard" title="Mastercard"></i>
+          <i class="fa-brands fa-cc-apple-pay" title="Apple Pay"></i>
+          <span class="pay-badge">QRIS</span>
+          <span class="pay-badge">BCA Virtual Account</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- CART SLIDE DRAWER -->
+  <div class="drawer-overlay" id="drawerOverlay"></div>
+  <aside class="cart-drawer" id="cartDrawer">
+    <div class="drawer-header">
+      <div class="drawer-title-box">
+        <i class="fa-solid fa-bag-shopping"></i>
+        <h3>Keranjang Belanja (<span id="cartDrawerCount">0</span>)</h3>
+      </div>
+      <button class="close-drawer-btn" id="closeCartBtn" aria-label="Tutup Keranjang">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+
+    <div class="drawer-body" id="cartItemsList">
+      <!-- Empty cart or populated with items -->
+    </div>
+
+    <div class="drawer-footer" id="cartFooter">
+      <div class="cart-subtotal">
+        <span>Total Pembayaran:</span>
+        <strong id="cartSubtotalAmount">Rp 0</strong>
+      </div>
+      <p class="free-shipping-progress" id="freeShippingNotice">
+        <i class="fa-solid fa-truck-fast"></i> Belanja <strong id="remainingShipping">Rp 750.000</strong> lagi untuk Gratis Ongkir!
+      </p>
+      <button class="btn btn-primary btn-block" id="checkoutBtn">
+        Lanjutkan ke Pembayaran
+        <i class="fa-solid fa-arrow-right"></i>
+      </button>
+      <button class="btn-clear-cart" id="clearCartBtn">Kosongkan Keranjang</button>
+    </div>
+  </aside>
+
+  <!-- SEARCH MODAL -->
+  <div class="modal-overlay" id="searchModal">
+    <div class="search-modal-box">
+      <div class="search-modal-header">
+        <div class="search-input-wrapper">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" id="searchInput" placeholder="Cari kemeja, tas kulit, kacamata, blazer..." autocomplete="off">
+        </div>
+        <button class="close-modal-btn" id="closeSearchBtn">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+      <div class="search-modal-results" id="searchResults">
+        <p class="search-hint">Ketik nama produk atau kategori untuk mencari...</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- PRODUCT DETAIL / QUICK VIEW MODAL -->
+  <div class="modal-overlay product-modal-overlay" id="productModal">
+    <div class="product-modal-box">
+      <button class="close-modal-btn close-product-modal" id="closeProductModal" aria-label="Tutup Detail">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div class="product-modal-body" id="productModalBody">
+        <!-- Konten detail produk akan diisi dinamis melalui JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <!-- TOAST NOTIFICATION CONTAINER -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
